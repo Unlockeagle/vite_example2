@@ -1,0 +1,55 @@
+/*/// Para empaquetado///*/
+
+// js nuevo
+// export default {
+
+// }
+
+//path recibe una cadena de texto
+const path = require('path'),
+
+// js ema viejo, entre comillas 'la ruta del archivo'
+//path.resolve si no consigue el archivo lo crea
+//path.join busca una ruta existente
+module.exports = {
+    entry: ./src/main.js',
+    mode: 'development',
+    output: {
+        Path: path.resolve(__dirname, 'dist'),
+        filename: 'dist.js',
+    }
+
+},
+
+
+
+
+
+webpack, configurar para compilar los archivos de la web
+para que se puedan leer en la web
+
+npm init -y
+npm i -D webpack webpack-cli
+
+/* escribir en scrip pack
+
+"build" : "npx webpack",
+
+npm i html-webpack-plugin
+
+npm install --save-dev mini-css-extract-plugin
+
+
+
+*********************************************
+segunda opcion
+
+en cmd
+npm create vite@latest
+
+en visual
+npm run dev
+npm i
+npm run dev
+
+en el package "dev": "vite --host",
